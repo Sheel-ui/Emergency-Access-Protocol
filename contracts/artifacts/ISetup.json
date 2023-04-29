@@ -1,0 +1,647 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"creditHospitalAvlFunds(string,uint256)": "ec1d9458",
+			"creditHospitalLockedFunds(string,uint256)": "679cb498",
+			"creditPatientAvlFunds(string,uint256)": "e0915ee0",
+			"creditPatientLockedFunds(string,uint256)": "c4f1eb54",
+			"debitHospitalAvlFunds(string,uint256)": "c4d722cd",
+			"debitHospitalLockedFunds(string,uint256)": "e848cbfe",
+			"debitPatientAvlFunds(string,uint256)": "85ce0703",
+			"debitPatientLockedFunds(string,uint256)": "acb28435",
+			"getDecryptKey(string)": "b2e0009a",
+			"getHospital(address)": "c49b09b5",
+			"getHospital(string)": "9166df58",
+			"getPatient(address)": "b5368e20",
+			"getPatient(string)": "e79a7a2e",
+			"getPool(string,string)": "f0de5d79",
+			"getRecipientHospitals(string)": "1f5638e5",
+			"getVote(string,string)": "aaea52e9",
+			"uploadVote(string,string,string[],uint256)": "79a937ba",
+			"verifyHospital(address)": "46fab624",
+			"verifyPatient(string)": "5998e02a"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "creditHospitalAvlFunds",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "creditHospitalLockedFunds",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "creditPatientAvlFunds",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "creditPatientLockedFunds",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "debitHospitalAvlFunds",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "debitHospitalLockedFunds",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "debitPatientAvlFunds",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "debitPatientLockedFunds",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "p_uid",
+					"type": "string"
+				}
+			],
+			"name": "getDecryptKey",
+			"outputs": [
+				{
+					"internalType": "string",
+					"name": "",
+					"type": "string"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				}
+			],
+			"name": "getHospital",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "string",
+							"name": "d_uid",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "h_uid",
+							"type": "string"
+						},
+						{
+							"internalType": "address",
+							"name": "wallet",
+							"type": "address"
+						},
+						{
+							"components": [
+								{
+									"internalType": "bool",
+									"name": "isSet",
+									"type": "bool"
+								},
+								{
+									"internalType": "uint256",
+									"name": "avlFunds",
+									"type": "uint256"
+								},
+								{
+									"internalType": "uint256",
+									"name": "lockedFunds",
+									"type": "uint256"
+								}
+							],
+							"internalType": "struct Pool",
+							"name": "pool",
+							"type": "tuple"
+						}
+					],
+					"internalType": "struct Hospital",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "addr",
+					"type": "address"
+				}
+			],
+			"name": "getHospital",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "string",
+							"name": "d_uid",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "h_uid",
+							"type": "string"
+						},
+						{
+							"internalType": "address",
+							"name": "wallet",
+							"type": "address"
+						},
+						{
+							"components": [
+								{
+									"internalType": "bool",
+									"name": "isSet",
+									"type": "bool"
+								},
+								{
+									"internalType": "uint256",
+									"name": "avlFunds",
+									"type": "uint256"
+								},
+								{
+									"internalType": "uint256",
+									"name": "lockedFunds",
+									"type": "uint256"
+								}
+							],
+							"internalType": "struct Pool",
+							"name": "pool",
+							"type": "tuple"
+						}
+					],
+					"internalType": "struct Hospital",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "addr",
+					"type": "address"
+				}
+			],
+			"name": "getPatient",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "string",
+							"name": "p_uid",
+							"type": "string"
+						},
+						{
+							"internalType": "address",
+							"name": "wallet",
+							"type": "address"
+						},
+						{
+							"components": [
+								{
+									"internalType": "bool",
+									"name": "isSet",
+									"type": "bool"
+								},
+								{
+									"internalType": "uint256",
+									"name": "avlFunds",
+									"type": "uint256"
+								},
+								{
+									"internalType": "uint256",
+									"name": "lockedFunds",
+									"type": "uint256"
+								}
+							],
+							"internalType": "struct Pool",
+							"name": "pool",
+							"type": "tuple"
+						}
+					],
+					"internalType": "struct Patient",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				}
+			],
+			"name": "getPatient",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "string",
+							"name": "p_uid",
+							"type": "string"
+						},
+						{
+							"internalType": "address",
+							"name": "wallet",
+							"type": "address"
+						},
+						{
+							"components": [
+								{
+									"internalType": "bool",
+									"name": "isSet",
+									"type": "bool"
+								},
+								{
+									"internalType": "uint256",
+									"name": "avlFunds",
+									"type": "uint256"
+								},
+								{
+									"internalType": "uint256",
+									"name": "lockedFunds",
+									"type": "uint256"
+								}
+							],
+							"internalType": "struct Pool",
+							"name": "pool",
+							"type": "tuple"
+						}
+					],
+					"internalType": "struct Patient",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "h_uid",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "p_uid",
+					"type": "string"
+				}
+			],
+			"name": "getPool",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "bool",
+							"name": "isSet",
+							"type": "bool"
+						},
+						{
+							"internalType": "uint256",
+							"name": "avlFunds",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "lockedFunds",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct Pool",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "uid",
+					"type": "string"
+				}
+			],
+			"name": "getRecipientHospitals",
+			"outputs": [
+				{
+					"internalType": "string[]",
+					"name": "",
+					"type": "string[]"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "h_uid",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "p_uid",
+					"type": "string"
+				}
+			],
+			"name": "getVote",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "string",
+							"name": "h_uid",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "p_uid",
+							"type": "string"
+						},
+						{
+							"internalType": "uint256",
+							"name": "dsCount",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "xCount",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "yCount",
+							"type": "uint256"
+						},
+						{
+							"internalType": "string[]",
+							"name": "recipients",
+							"type": "string[]"
+						},
+						{
+							"internalType": "uint256",
+							"name": "pool",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct Vote",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "h_uid",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "p_uid",
+					"type": "string"
+				},
+				{
+					"internalType": "string[]",
+					"name": "recipients",
+					"type": "string[]"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "uploadVote",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "addr",
+					"type": "address"
+				}
+			],
+			"name": "verifyHospital",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "p_uid",
+					"type": "string"
+				}
+			],
+			"name": "verifyPatient",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

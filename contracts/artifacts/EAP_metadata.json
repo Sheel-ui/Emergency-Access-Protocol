@@ -1,0 +1,144 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_setupAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "str2",
+						"type": "string"
+					}
+				],
+				"name": "compare",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "h_uid",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "p_uid",
+						"type": "string"
+					}
+				],
+				"name": "initiateEAP",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pledge",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "h_uid",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "p_uid",
+						"type": "string"
+					}
+				],
+				"name": "terminateEAP",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EAP.sol": "EAP"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EAP.sol": {
+			"keccak256": "0xe340ca75e429c261ef0ec511389f8ab03750f7ac91d15dc407aea090cd964137",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d1f5866df1d8a62077b96386454319d9027fde5481017a302051f10c422f6371",
+				"dweb:/ipfs/QmUEAa7mK7Wb8qCtyRaDvB7Kd9fTAYHocoumSXFDy2216v"
+			]
+		},
+		"contracts/Setup.sol": {
+			"keccak256": "0x74fc429cc29a847a942aca7180ab94e02bfd3963406006d8ac90cff6fdc8ad65",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c224bc3220964480501d93cc2d4a6d221c47a94e8f06546d97c747a26d06eef0",
+				"dweb:/ipfs/QmSSrbaaWr4aCiDYGmDysvYnePvbmVSkSzY5CSTeQ3DxQd"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "pledge",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Membership.sol": "Membership"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Membership.sol": {
+			"keccak256": "0x7b8a0b93a29ccf8e89942a2038f38d1543b9a0ee53c6a6202d18181c5bb7810e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c70b52d2f35f2a6f1190a0d5362b8a703fa7df5690ad748547691fba2076e0e6",
+				"dweb:/ipfs/QmYzvmDJ5L3jNoguDmZQ4QKvTzQ4V1hyASCPxwU3RYTsLN"
+			]
+		},
+		"contracts/Setup.sol": {
+			"keccak256": "0x977fc7ea8e4b83725ef9d8335de64673f323c75a0f06814f956958e03d4e09f9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3ce1d9a3462c89b91bb797f737f050b9060fe8cd31b38e3f72565e57bad3cd0b",
+				"dweb:/ipfs/QmUk7CjFwKmvAizh1UrZeSePndhmqXMp8AqykttQmoRdJS"
+			]
+		}
+	},
+	"version": 1
+}
